@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rap Trivia</title>
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Rap Trivia Game</title>
+  </head>
+
+  <body>
+   
+    <div class="container">
+      <div class="header text-center clearfix">
+        <h1 class="text-muted">rap trivia game</h1>
+      </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <div id="game">
+          <h2>Rap Trivia Game</h2>
+          <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+          <p id="question" class="lead"></p>
+        </div>
+        <div id="results">
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="choices" class="text-center">
+          <button id="start" class="btn btn-info btn-lg">Start Game</button>
+          <div id="options">
+            
+          </div>
+          
+        </div>
+      </div>
+
+    </div> 
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+  </body>
+</html>
